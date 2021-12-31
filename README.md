@@ -7,9 +7,10 @@ SONYのWalkmanやミュージックプレイヤーソフトなどで使われる
 出力ファイル名は'`output.m3u8`'に固定です。  
 Walkmanでプレイリストに適当に追加していくと、重複チェックしてくれないので同じ曲が複数入ってしまうんですよね。なので、ちょっと暇つぶしを兼ねて書いたスクリプトです。  
 
-## How it works
+## How to run
 The program is written in Python3 and platform agnostic. Just run the script with input .m3u8 filename, and you'll get '`output.m3u8`' file with entry sort and duplicate rejection.  
 
 ```sh
 python3 m3u8_organizer.py input.m3u8
 ```
+If you are using Windows, use '`python`' instead of '`python3`'.
